@@ -6,7 +6,7 @@ name = "pypi"
 [packages]
 wheel = "*"
 mezzanine = "*"
-pyscopg2 = "*"
+pyscopg2-binary = "*"
 
 [dev-packages]
 
