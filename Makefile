@@ -20,7 +20,7 @@ run-local:
 	cd $(mezza_dir) && pipenv run python manage.py runserver 127.0.0.1:$(instance_port)
 
 run-vagrant:
-	cd $(mezza_dir) && pipenv run python manage.py runserver --settings=mezzanine_example.vagrant 0.0.0.0:$(instance_port)
+	cd $(mezza_dir) && pipenv run python manage.py runserver --settings=mezzanine_example.vagrant_settings 0.0.0.0:$(instance_port)
 
 
 build_run: install default-install-sqlite run-local
