@@ -4,9 +4,8 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-wheel = "*"
 mezzanine = "*"
-pyscopg2-binary = "*"
+psycopg2-binary = "*"
 
 [dev-packages]
 
